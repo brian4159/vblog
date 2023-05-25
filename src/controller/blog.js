@@ -1,19 +1,8 @@
+const {exec} = require('../db/mysql')
+
 const getList  =(author,keyword)=>{
         return [
-            {
-            id:"1",
-            author:'张三',
-            title:'标题A',
-            content:"呃逆荣",
-            createTime:'2021-12-20 10:00:00'
-        },
-            {
-            id:"2",
-            author:'李四',
-            title:'标题B',
-            content:"呃逆荣",
-            createTime:'2021-12-20 10:00:00'
-        },
+        
     ]
 }
 
