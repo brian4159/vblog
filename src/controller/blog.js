@@ -51,7 +51,7 @@ const upadateBlog = ((id, blogData = {}) => {
 
 })
 
-const delBlog = ((id) => {
+const delBlog = ((id,author) => {
   const sql = `delete from blogs where id=${id}`
   
   return exec(sql).then(delData => {
